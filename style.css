@@ -1,0 +1,54 @@
+html {
+    font-size: 10px;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: rgba(187, 184, 184, 0.95);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+p {
+    font-size: 2rem;
+}
+
+.ball {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(178, 221, 158);
+    border-radius: 20px;
+    width: 80vw;
+}
+
+img {
+width: 30vw;
+}
+
+
+#questionButton {
+    font-size: 2rem;
+    margin: 1rem;
+    padding: 2rem;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(72, 233, 72);
+}
+
+#questionButton:hover {
+    background-color: rgb(178, 221, 158);
+    border: 4px solid rgb(72, 233, 72);
+}
